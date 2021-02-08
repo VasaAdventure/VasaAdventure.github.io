@@ -1,0 +1,342 @@
+@font-face{
+    src: url(Font/KELMSCOT.TTF);
+    font-family: kelm;
+}
+body{
+ font-family:kelm ;
+background-color: brown;
+}
+.navbar-toggle{
+    margin-top: 25px;
+    margin-right: 30px;
+     background-image: url(Images/Stempel%202.png);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    border-width: 0;
+    padding-bottom: 15px;
+    border-radius: 25%; 
+    background-color: brown!important;
+}
+
+.navbar-toggle:hover{
+    background-color: brown!important;
+    border-color: brown;
+}
+.icon-bar{
+    background-color:#9d9d9d!important;
+}
+.navbar-toggle:hover .icon-bar{
+    background-color: white!important;
+}
+.navbar-header{
+
+    margin: 7.5px -15px;
+   
+}
+.navbar-header h1{
+display: inline-block;
+
+    font-size: 2.5em;
+}
+.navbar-nav{
+margin: 17px -15px;;
+    border-color: darkorange;
+    margin-top: 27px;
+    margin-right: 10px;
+}
+.navbar-collapse{
+    border-color: brown
+}
+a{
+color:#9d9d9d ;
+    
+}
+a:hover
+{
+    text-decoration: none;
+color:white !important;
+}
+
+.myIcon{
+color: darkorange;
+    margin:0 50px;
+}
+.content i{
+margin-top: 10px;
+}
+#star{
+display: inline-block;
+    width: 60px;
+   /*position:absolute;*/
+     margin-bottom: 10px;
+    
+}
+
+.fill-screen{
+background-size:cover;
+background-repeat: no-repeat;
+    background-position:top;
+    background-attachment: fixed;
+    
+}
+.down-button{
+text-align: center;
+    position:relative;
+   
+    
+    
+    
+}
+.arrow{
+     width: 100px;
+    height: 100px;
+   object-fit: contain; 
+}
+.title-row .down-button{
+    top:80px;
+}
+.down-button i{
+    color: darkorange;
+}
+.navegator{
+    position: relative;
+top: calc(650px - 35%)
+}
+
+.row{
+text-align: center;
+}
+
+.activity-element{
+background: brown;
+    float:none;
+    margin: 0 auto;
+    padding: 0;
+    
+
+}
+.trailer{
+    width: 100%;
+    font-size: 0;
+     
+    display: block;
+    
+}
+.content{
+    background-color: lightgray;
+color: darkorange;
+    border: 100px;
+    
+
+
+}
+.content > div{
+  box-shadow: 0 0 300px lightgray;
+    margin: o auto;
+    border-style: none;
+}
+.myBackgound{
+
+
+
+}
+.bordfun{
+-webkit-transition: 0.5s;
+transition: 0.5s;
+    text-align: center;
+
+}
+.active a {
+    background-image: url(Images/Stempel%202.png);
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    
+    display: block;
+    margin: 0 auto;
+    background-color: brown!important;
+/* background-color: darkorange !important;
+    box-shadow: 0 0 30px darkorange;*/
+
+}
+#studies{
+    width: 100%;
+    padding-bottom: 20px;
+    
+
+}
+#tabs{
+color:  darkorange;
+   
+    background:;
+    box-shadow: 0 0 10px brown;
+    border-color:brown;
+    
+}
+#tabs .ui-tabs-active{
+background-color: darkorange ;
+    box-shadow: 0 0 30px lightgray;
+    
+    
+}
+*:focus {
+    outline: none !important;
+}
+#tabs .ui-tabs-active a{
+color: white;
+}
+#tabs ul{
+  background:brown;
+   border-style: none;
+    text-align: center;
+  
+    display: inline-block;
+}
+#tabs li{
+    
+    text-align: center;
+  display: inline-block;
+border-style: none;
+background: none;
+}
+#tabs a{
+    margin: 0 auto;
+color:#9d9d9d;
+}
+#tabs p{
+color:  darkorange;
+}
+#tabs div{
+
+}
+.accordion{
+color:  darkorange;
+    
+}
+.sectionBox{
+text-align: left;
+    background:brown;
+    color: darkorange;
+    border-color:darkorange;
+    box-shadow: 0 0 10px brown;
+}
+
+.sectionBox h3{
+width: calc(100% - 110px);
+font-size: 13px;
+display: inline-block;
+     
+
+}
+.sectionBox h3:nth-of-type(2){
+width: 100px;
+}
+
+.ui-accordion-content{
+background:brown;
+    color: darkorange;
+    border-color:darkorange;
+}
+
+
+.col-md-4{
+display: inline-block;
+    vertical-align: top;
+    width: 23%;
+    margin: 0 10px;
+    margin-bottom: 20px;
+    padding: 0;
+    box-shadow: 0 0 10px brown;
+
+}
+.col-md-9{
+display: inline-block;
+    vertical-align: top;
+    
+    margin: 0 10px;
+    margin-bottom: 20px;
+    padding: 0;
+    box-shadow: 0 0 10px brown;
+
+}
+.col-md-4 img{
+width: 100%
+}
+.text-banner p{
+padding: 0 10%;
+}
+.col-sm-12{
+ padding-bottom: 10px;
+}
+
+
+@media (max-width: 967px){
+    
+    .navbar-header h1{
+/*font-size: 0em;*/
+    }
+    .col-md-4{
+    display: block;
+        width: 100%;
+    }
+    .news-text{
+   
+}
+}
+@media (max-width: 767px){
+    
+    .navbar-header h1{
+font-size: 2.5em;
+
+}
+    .nav .bordfun{
+        padding: 10px;
+        margin: 0 auto;
+    width: 70px;
+    }
+    .news-text{
+    margin: 0 auto;
+         overflow-x:visible;
+         display: block;
+}
+  
+}
+.container-fluid{
+box-shadow: 0 0 30px brown;
+    background: brown;
+    border-color: darkorange;
+}
+.container-fluid p{
+margin-top: 20px;
+
+}
+.fit-object{
+    width: 100%;
+    height: 100%;
+        margin-top: 20px;
+    margin-bottom: 20px;
+    object-fit:fill;
+}
+.min-ram{
+    border-color: brown;
+   
+    border-bottom-style: solid;
+    border-image-source: url(Images/ram5.png);
+   border-image-slice:482 ;
+    border-image-width: 50px;
+    
+    border-image-repeat:round;
+    border-image-outset: ;
+    
+}
+.how-am-i{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.about{
+   padding-top: 1px;
+    
+}.news-text{
+    
+         
+         display: block;
+}

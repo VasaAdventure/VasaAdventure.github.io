@@ -1,16 +1,263 @@
-<!DOCTYPE html>
+
+   <!DOCTYPE html>
 <html>
-
- <head>
-     <title> Vasa Adventur</title>
-     
-    </head>
+<head>
+    <meta charset="utf-8">
+    <title> Vasa Adventur</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <!--<link href="../../Content/font-awesome.min.css" rel="stylesheet" />-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    
+    <link href="appa.css" rel="stylesheet"/>
+    <!--<link href="app.css" rel="stylesheet" />-->
+</head>
 <body>
-    <img src="Title_screen_with_background_image.png">
+    <header id="top">
+        <nav class="navbar navbar-inverse navbar-fixed-top cbp-af-header ">
+            <div class="container-fluid min-ram">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header ">
+                    
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                       <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="myIcon">
+                        
+                        <!--<i class="fa fa-star fa-4x"></i>-->
+                        
+                        <h1>Vasa</h1><span>  </span> <img id="star" src="Images/health_bar.png" /><h1>  Adventur</h1>
+                       
+                    </a>
+                    
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right" >
+                        <li > <a class="bordfun"  href="#top">Home</a></li>
+                        <li><a class="bordfun" href="#link1">About</a></li>
+                        <li><a class="bordfun" href="#link2">News</a></li>
+                        <li><a class="bordfun" href="#link3">Us</a></li>
+                        <li><a class="bordfun" href="#link4">Contact</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </header>
+
+    <div class="container-fluid">
+
+        <section class="row title-row myBackgound">
+            <div class="fill-screen stellar-bg"  style="background-image: url('Images/InGame2.png')" >
+
+                <div class="down-button">
+                    <a class="btn" href="#link1">
+                        <img class="arrow" src="Images/GUI_arrow.png">
+                       <!-- <i class="fa fa-arrow-circle-down fa-4x"></i>-->
+                    </a>
+                </div>
+                <div><img class=" fit-object" src="Images/Titele6.png"></div>
+                
+               <div class="navegator"id="link1">
+                </div>
+            </div>
+        </section>
+
+        <section  class="row text-banner content"><div class="  col-sm-12">
+            <h2>About The Game</h2>
+            <div class="activity-element  col-md-9">
+            <!--<i class="fa fa-eye fa-5x"></i>-->
+            
+            <video controls class="trailer">
+                <source src="Gustav%20Wasa%20trailerv_4.mp4" type="video/mp4">
+            </video>
+                
+            <div class=" min-ram  about">
+            
+            <p> Are you ready to pursue an epic quest of saving a kingdom from a foreign oppressor? In Gustav Vasa Adventures in the Dales, you control the young nobleman Gustav Eriksson Vasa. Follow him as he is being trusted into a political drama he was not yet prepared for. Given little to no choice Gustav sets out on a journey north. Travelling to the isolated Swedish county known as the Dales. There he attempts to rally the Dalesmen behind him as an army. His goal is to take back the throne from the Danish occupants.</p>
+            <br>
+            <h4>Features:</h4>
+ 
+
+ 
+<p>-Escape the Danish mercenaries through intense chase sequences on skis. Exploring a beautiful yet stylized Swedish winter landscape.</p>
+ <br>
+<p>-Talk with the people of the Dalish villages and towns, convincing them to join your cause. Hold a speech in Falun and rally your future people behind you.</p>
+ <br>
+<p>-Finally, take your rightful throne and become the king you always were meant to be.</p>
+            </div>
+            </div> </div>
+        </section>
+
+        <section  class="row myBackgound" style="">
+            <div class="fill-screen fixed-attachment" style="background-image: url('Images/InGame1.png')">
+                <div class="down-button">
+                    <a class="btn myIcon" href="#link2">
+                        <img class="arrow" src="Images/GUI_arrow.png">
+                        <!--<i class="fa fa-arrow-circle-down fa-4x"></i>-->
+                    </a>
+                </div>
+                <div class="navegator"id="link2">
+                </div>
+            </div>
+        </section>
+
+        <section  class="row activity-section content">
+            <div id="studies" class="  col-sm-12">
+               
+                
+                
+                <!--<i class="fa fa-graduation-cap fa-5x"></i>-->
+                <!--<img src="images/study-1288.png" />-->
+                <br>
+                <h2>News</h2>
+                <div class="accordion">
+                    
+  <div class="sectionBox min-ram" >
+      <h3>Hallo World			
+</h3>  <h3>2021-02-08 </h3> </div>
+                    
+  <div class="min-ram news-text" >
+    <p>
+    Welcome to the website or Gustav Vasa Adventures in the Dales. We are a small dedicated group of indie developers working together to release our first game.  
+    </p><br>
+  </div>
+  <!--<div class="sectionBox" >
+      <h3>Gustav vasa 
+			
+</h3>  <h3>2013-2014 </h3> </div>
+  <div>
+    <p>
+    This year 2021 it is 500 years since Gustav Vasa the iconic Swedish renaissance king set out on his epic travel through the Swedish dales.  A journey filled with many dangers, endurance of low temperature and plenty of interesting encounters. Trying to outmaneuver the Danish and recruit the Daleish people as his militia Gustav traveled on skis from village to village in the north of Sweden. Therefore we are proud to present out game Gustav Vasa- Adventures in the Dales to come out later this year.
+    </p>
+  </div>
+  <div class="sectionBox" >
+      <h3>Södertörns Högskola, Media and Storytelling			
+</h3>  <h3>våren 2013 </h3> </div>
+  <div>
+    <p>
+    Kurs på engelska där jag i grupp filmade och redigera egna kortfilmer.
+    </p>
     
-    
-    </body>
+  </div>
+  <div class="sectionBox" >
+      <h3>Norra Real gymnasium, Naturvetenskap, profil Matematik		
+</h3>  <h3>2008-2012 </h3> </div>
+  <div>
+    <p>
+    Utbildning där jag läste Matte A, B, C, D , E & Breddning. Dessutom 	Programmering A, B & C i Java.    
+    </p>
+  </div>-->
+                        
+</div>
+
+            </div>
+        </section>
+
+        <section  class="row myBackgound" style="">
+            <div class="fill-screen fixed-attachment" style="background-image: url('Images/InGame3.png')">
+                <div class="down-button">
+                    <a class="btn" href="#link3">
+                        <img class="arrow" src="Images/GUI_arrow.png">
+                        <!--<i class="fa fa-arrow-circle-down fa-4x"></i>-->
+                    </a>
+                </div>
+                <div class="navegator"id="link3">
+                </div>
+            </div>
+        </section>
+ <section  class="row text-banner content activity-section "> <div class="  col-sm-12">
+    <!-- <i class="fa fa-wrench fa-4x"></i>-->
+            <h2>About Us</h2>
+            <div class="activity-element col-md-4 ">
+                <img   src="Images/ingeborg.png"/>
+                <div class="min-ram how-am-i">
+                <h2>Ingeborg Asplund</h2>
+                <p> Programming,Game Design, Level design,2D Animation and UI</p>
+                <br>
+<a href="https://www.ingeborgasplund.eu/">portfolio </a>
+                    </div>
+            </div>
+
+            <div class="activity-element col-md-4">
+                <img src="Images/stanislav.png" />
+                <div class="min-ram how-am-i">
+                <h2>Stanislav Hallberg</h2>
+                <p>Programming, Ai, Game Design,UI, Bug fixing , and Gameplay Physics
+  </p><br>
+<a href="http://stanirandom.github.io//">portfolio </a>
+                </div>
+            </div>
+
+            <div class="activity-element col-md-4">
+                <img src="Images/gertrud.png" />
+                <div class="min-ram how-am-i">
+                <h2>Getrud Bondesson</h2>
+                <p>2D Grafiichs, 3DEnvironment Graphics and Texturing 
+</p><br> <a href="https://www.ingeborgasplund.eu/">portfolio</a>
+                </div>
+    </div>
+     <div class="activity-element col-md-4">
+                <img src="Images/jocke.jpg" />
+         <div class="min-ram how-am-i">
+                <h2>Joakim Bengtson</h2>
+                <p>Character Modelling, Animations, Lighting and Music</p> <br><br>
+         </div>
+    </div>
+     <div class="activity-element col-md-4">
+                <img src="Images/natali.png" />
+         <div class="min-ram how-am-i">
+                <h2>Natali Hallberg</h2>
+                <p>Skybox and ui Grapics</p> <br>
+         </div>
+    </div>
+     </div>
+     
+        </section>
+        <section  class="row myBackgound" style="">
+            <div class="fill-screen fixed-attachment" style="background-image: url('Images/InGame4.png')">
+                <div class="down-button">
+                    <a class="btn" href="#link4">
+                       <img class="arrow" src="Images/GUI_arrow.png">
+                        <!--<i class="fa fa-arrow-circle-down fa-4x"></i>-->
+                    </a>
+                </div>
+                <div class="navegator"id="link4">
+                </div>
+            </div>
+        </section>
+        <section  class="row contact-me content">
+            <div class=" col-sm-12 ">
+            <!--    <i class="fa fa-envelope fa-5x"></i>-->
+
+            <h2>Contact Information</h2>
+            <h3> vasaadventureproject@gmail.com</h3>
+        <!--    <p> 070-423 76 46</p>
+            <p> Grindsgatan 52, 4 tr.</p>
+            <p>118 57 Stockholm</p>-->
+                </div>
+        </section>
+
+    </div>
 
 
+    <footer class="container-fluid">
+        <p>&copy; 2015 stanislav hallberg<p>
+    </footer>
+
+
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/classie.js"></script>
+    <script src="Scripts/cbpAnimatedHeader.js"></script>
+    <script src="Scripts/jquery.easing.1.3.js"></script>
+    <script src="Scripts/jquery.stellar.js"></script>
+    <script src="scrolling.js"></script>
+</body>
 </html>
-   
