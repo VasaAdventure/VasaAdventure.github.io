@@ -32,7 +32,7 @@ $(function () {
     //Parallax scrolling with stellar.js
     $(window).stellar();
     
-   /* setInterval(function(){
+    setInterval(function(){
     $(".bordfun").css({
         borderBottomLeftRadius: Math.random()*40 +10 +"%",
         borderBottomRightRadius:Math.random()*40 +10  +"%",
@@ -41,7 +41,7 @@ $(function () {
         
         
        
-    });},500);*/
+    });},500);
 
     
 });
