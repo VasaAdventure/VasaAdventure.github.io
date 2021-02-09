@@ -47,7 +47,7 @@ margin: 17px 0;;
     margin-right: 10px;
 }
 .navbar-collapse{
-    border-color: brown
+    border-color: brown!important;
 }
 a{
 color:#9d9d9d ;
