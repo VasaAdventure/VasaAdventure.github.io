@@ -30,7 +30,9 @@ background-color: brown;
 }
 .navbar-header{
 
-    margin: 7.5px -15px;
+    margin: 7.5px 0;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
    
 }
 .navbar-header h1{
@@ -39,7 +41,7 @@ display: inline-block;
     font-size: 2.5em;
 }
 .navbar-nav{
-margin: 17px -15px;;
+margin: 17px 0;;
     border-color: darkorange;
     margin-top: 27px;
     margin-right: 10px;
@@ -59,7 +61,7 @@ color:white !important;
 
 .myIcon{
 color: darkorange;
-    margin:0 50px;
+    margin:0 30px;
 }
 .content i{
 margin-top: 10px;
@@ -278,9 +280,7 @@ padding: 0 10%;
     display: block;
         width: 100%;
     }
-    .news-text{
-   
-}
+    
 }
 @media (max-width: 767px){
     
@@ -293,12 +293,17 @@ font-size: 2.5em;
         margin: 0 auto;
     width: 70px;
     }
-    .news-text{
-    margin: 0 auto;
-         overflow-x:visible;
-         display: block;
-}
+    
   
+}
+@media (max-width: 500px){
+    .navbar-header h1{
+font-size: 0em;
+    }
+    .navbar-header img{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
 }
 .container-fluid{
 box-shadow: 0 0 30px brown;
@@ -336,7 +341,8 @@ margin-top: 20px;
    padding-top: 1px;
     
 }.news-text{
-    
-         
+     word-wrap: break-word;
+         padding-bottom: 1px;
          display: block;
+    height:fit-content !important; 
 }
