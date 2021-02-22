@@ -124,6 +124,11 @@ background: brown;
     display: block;
     
 }
+.trailer2{
+    width: 100%;
+    font-size: 0;
+    display: none;
+}
 .content{
     background-color: lightgray;
 color: darkorange;
@@ -292,6 +297,12 @@ font-size: 2.5em;
         padding: 10px;
         margin: 0 auto;
     width: 70px;
+    }
+    .trailer{
+        display: none;
+    }
+    .trailer2{
+        display: block ;
     }
     
   
